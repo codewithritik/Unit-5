@@ -1,0 +1,82 @@
+.todologo{
+    background-color: white;
+    color: white;
+}
+ 
+ input{
+     font-size: 18px;
+    border-left: 4px solid rgb(120,8,231);
+    border-top:4px solid rgb(120,8,231); 
+    border-bottom: 4px solid rgb(120,8,231);
+    padding: 6px 15px;
+    outline: none;
+    
+    width: 230px;
+    border-right: 0px ;
+} 
+
+button{
+    padding: 10px 10px 8px 10px;
+    outline: none;
+    border-right: 4px solid rgb(120,8,231);
+    border-top:3px solid rgb(120,8,231); 
+    border-bottom: 4px solid rgb(120,8,231);
+    background-color: white;
+    border-left: 0px solid orange;
+    /* font-size: 35px; */
+    
+}
+/* button:hover{
+    border: 2px solid blue;
+} */
+input:focus {
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+
+/* input:hover{
+    border: 2px solid blue;
+} */
+
+.Tododata{
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.mapdata{
+    text-align: center;
+    margin: 30px;
+}
+.mapdata > span{
+    padding: 0px 95px 0px 95px;
+    outline: none;
+    border: 2px solid white;
+    width: 230px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+   
+
+}
+.logo{
+    color: rgb(120,8,231);
+    -webkit-text-stroke: 2px white;
+
+    padding-top: 30px;
+}
+.todoinput{
+
+margin-top: 30px;
+}
+
+/* .tododiv >div{
+   
+    color: white;
+  height: 40px;
+  width: 300px;
+    border: 1px solid red;
+
+} */
+

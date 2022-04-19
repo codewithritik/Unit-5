@@ -1,0 +1,44 @@
+.TodoData{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 450px;
+    margin-top: 10px;
+    height: 40px;
+    border: 3px solid #16A3B7;
+}
+
+.deltetdiv{
+margin: 0px;
+padding: 0px;
+
+}
+.deltetbtn{
+    height: 40px;
+    background-color: #16A3B7;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    font-size: 40px;
+width: 80px;
+padding-bottom: 0px;
+
+}
+.Tododatadiv{
+
+    margin-top: 20px;
+}
+.textdiv{
+    border: 2px solid transparent;
+    /* padding: 5px; */
+    font-size: 20px;
+}
+.removeallbtn{
+    margin-top: 10px;
+}
+.removeallbtn > button{
+    background-color: #16A3B7;
+    color: white;
+    font-size: 30px;
+}
