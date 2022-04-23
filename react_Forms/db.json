@@ -1,0 +1,22 @@
+{
+  "employee": [
+    {
+      "name": "Ritik",
+      "address": "100",
+      "age": "20",
+      "Department ": "science",
+      "Salary": "200",
+      "marital_state": "unmarried",
+      "id": 1
+    },
+    {
+      "name": "Ritik",
+      "address": "100",
+      "age": "10",
+      "Department ": "science",
+      "Salary": "2300000",
+      "marital_state": "married",
+      "id": 2
+    }
+  ]
+}

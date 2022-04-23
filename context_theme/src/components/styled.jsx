@@ -17,13 +17,13 @@ function Style(){
         color:  ${(props )=> props.theme==="light" ? " black" : "white"};
         background: ${(props )=> props.theme==="light" ? " #F5F6FA" : "#1F2327"};
         width: 1440px;
-        height: 1024px;
-   
+        height: 900px;
+          
         display: flex;
     `
   
     const Leftmenu  = styled.div`
-        height: 1024px;
+        height: 900px;
     width: 81px;
     left: 0px;
     top: 0px;
