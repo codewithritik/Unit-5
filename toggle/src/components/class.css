@@ -1,0 +1,19 @@
+.new{
+  height: 70px;
+  width: 85px;
+  left: 91px;
+  top: 300px;
+  border-radius: 5px;
+  border: 2px solid orange;
+  background-color: blue;
+}
+
+.old{
+  height: 70px;
+  width: 85px;
+  left: 91px;
+  top: 300px;
+  border-radius: 5px;
+  border: 2px solid orange;
+  
+}
