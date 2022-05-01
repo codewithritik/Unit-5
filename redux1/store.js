@@ -1,15 +1,24 @@
 import { legacy_createStore as createStore } from "redux"
 
 const reducer = (store,action)=>{
-    if(action.type === "ADD_TODO"){
-        return {...store, counter:store.counter +action.payload}
+    switch(action.type){
+        case "ADD_COUNT" :
+         return {...store, counter:store.counter +action.payload};
+         case "ADD_TODO":
+             return {...store, todo:[...store.todo , action.payload]}
+            // return {...store, counter:store.counter +action.payload};
+             default:
+             return store
+
     }
- return store
 }
+   
+        
 
 
 const initState= {
-    counter :"ritik",
+    counter : 0,
+    todo : ""
 }
 
 
@@ -30,6 +39,22 @@ store.dispatch({
     type:"ADD_TODO",
     payload:"rohit"
 });
+store.dispatch({
+    type:"ADD_COUNT",
+    payload:2
+});
 
+const Addcount  =  (t)=>{
+ return {
+     type:"ADD_COUNT",
+     payload: t
+ }
+
+} 
+
+
+console.log(store.getState());
+
+store.dispatch(Addcount(3));
 
 console.log(store.getState());

@@ -1,0 +1,44 @@
+{
+  "todo": [
+    {
+      "title": "Learn Redux",
+      "status": false,
+      "id": 1
+    },
+    {
+      "title": "let",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "lernt",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "sdfa",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "safakh",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "aar",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "dfdfdf",
+      "status": false,
+      "id": 7
+    },
+    {
+      "title": "hghg",
+      "status": false,
+      "id": 8
+    }
+  ]
+}
