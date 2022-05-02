@@ -8,7 +8,7 @@ export const Todo =()=>{
     const Dispatch = useDispatch()
     const todos = useSelector((store) => store.todohh )
     const [show, setshow ] = useState([])
-    console.log(todos)
+    // console.log(todos)
 
     const Handlechange = ()=>{
         Dispatch(Todolist({

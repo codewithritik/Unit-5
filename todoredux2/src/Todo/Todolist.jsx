@@ -9,6 +9,17 @@ export const Todolist =()=>{
     const dispatch = useDispatch();
     const todos = useSelector((store)=>store.todo)
 
+    useEffect(()=>{
+        getData()
+      
+    },[]);
+    
+
+    const getData = async()=>{
+        let res =  await fetch("http://localhost:9090/todo")
+         let data = await res.json();
+         dispatch(addTodo(data))
+      }
 
     const handleAdd = ()=>{
         const payload = {
@@ -23,19 +34,11 @@ export const Todolist =()=>{
             },
             method : "POST",
         });
+        return getData()
         
     };
 
-    useEffect(()=>{
-        getData()
-    },[]);
     
-
-    const getData = async()=>{
-      let res =  await fetch("http://localhost:9090/todo")
-       let data = await res.json();
-       dispatch(addTodo(data))
-    }
 
     return (
         <div>
