@@ -6,8 +6,8 @@ export const TodoReducer = (state = init,{type , payload})=>{
      switch(type){
          case "ADD_TODO":
              return {
-                 ...state,
-                 todo : payload
+                //  ...state,
+                //  todo : payload
              }
         default : 
              return state;

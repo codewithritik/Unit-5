@@ -8,6 +8,5 @@ export const reducer = (store,action)=>{
             // return {...store, counter:store.counter +action.payload};
              default:
              return store
-
     }
 }

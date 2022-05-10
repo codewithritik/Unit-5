@@ -4,8 +4,6 @@ import { Tododaction } from "./action"
 
 
 export const Todofunction = ()=>{
-    const axios = require('axios').default;
-
     const dispacth = useDispatch()
     const show =  useSelector(store => store.todo)
 
@@ -21,11 +19,6 @@ export const Todofunction = ()=>{
        
         
     };
-
-
- 
-
-    
 
     return (
         <div>

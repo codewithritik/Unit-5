@@ -1,10 +1,8 @@
 import { useState,useContext } from "react"
-import {CartContext} from "../context/authcontext"
+
 export const Login = ()=>{
     const [Login, setLogin] = useState();
     const [Check, setcheck] = useState("x");
-
-    const {token,Change}  = useContext(CartContext);
 
     const Handlechange = (e)=>{
      
@@ -20,15 +18,15 @@ export const Login = ()=>{
       fetch("https://reqres.in/api/login",{
        method : "POST",
        body : JSON.stringify(Login),
-       headers : {t
-        "content-type" : "applicaion/json"
+       headers : {
+        "content-type" : "application/json"
        },
       })
        .then(res => res.json())
        .then(x=> setcheck(x))
        
        console.log(Check)
-       {Check.token == "QpwL5tke4Pnpja7X4" ? Change(true):null}
+       localStorage.setItem('mytoekn', JSON.stringify(Check));
        
   
     }
