@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react"
 import { addTodo } from "./action";
 import {useDispatch , useSelector} from "react-redux"
@@ -7,8 +8,8 @@ import { Link } from "react-router-dom";
 export const Todolist =()=>{
     const [text , setText] = useState("");
     const dispatch = useDispatch();
-    const todos = useSelector((store)=>store.todo)
 
+    const todos = useSelector((store)=>store.todo)
     useEffect(()=>{
         getData()
       

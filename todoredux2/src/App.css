@@ -1,12 +1,20 @@
 .App {
   text-align: center;
+  align-items: center;
+  width: 100%;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.logindiv{
+    width: 500px;
+    height: 500px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
